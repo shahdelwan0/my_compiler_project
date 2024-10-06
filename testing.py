@@ -22,8 +22,6 @@ This is a multi-line comment,
 but we are testing if it's considered a string.
 """
 
+data = {"key": [1, 2, 3], 'value': 10.5}
 
-data = { "key": [1, 2, 3], 'value': 10.5 }
-
-
-unknown_token = @
+# unknown_token = @

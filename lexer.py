@@ -43,6 +43,8 @@ def lex(code):
 
 code = open('testing.py', 'r').read()
 
-tokens = lex(code)
-for token in tokens:
-    print(token)
+
+def main():
+    tokens = lex(code)
+    for token in tokens:
+        print(token)
